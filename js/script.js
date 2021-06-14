@@ -64,8 +64,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 } else {
                     arrayNumsUserFalse.push(numsUser);
                 }
-                numsRandomPc.innerHTML = "Numeri random Pc: " + arrayNumsPc;
-                numsRandomUser.innerHTML = "Numeri Utente: " + arrayNumsUser;
+                numsRandomPc.innerHTML = "Numeri random Pc: " + arrayNumsPc + "<br>";
+                numsRandomUser.innerHTML = "Numeri Utente: " + arrayNumsUser + "<br>";
                 result.innerHTML = "Te ne ricordavi solamente: " + arrayNumsUserTrue.length + ", e sono: " + arrayNumsUserTrue;
             }
         }
