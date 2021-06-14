@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         arrayNumsPc.push(numRandom());
     }
     alert(arrayNumsPc);
+    alert("Mi raccomando, cerca di ricordarli perchè poi te li richiederò!");
 
     //oppure con un for
     /*
@@ -55,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             while (arrayNumsUser.length < 5) {
 
-                var numsUser = parseInt(prompt("Inserisci un numero!"));
+                var numsUser = parseInt(prompt("Dai provaci...inseriscili uno alla volta e premi OK!"));
                 arrayNumsUser.push(numsUser);
 
                 if (arrayNumsPc.includes(numsUser)) {
