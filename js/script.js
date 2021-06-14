@@ -57,15 +57,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 var numsUser = parseInt(prompt("Inserisci un numero!"));
                 arrayNumsUser.push(numsUser);
-                
-                if(arrayNumsPc.includes(numsUser)) {
+
+                if (arrayNumsPc.includes(numsUser)) {
                     arrayNumsUserTrue.push(numsUser);
                 } else {
                     arrayNumsUserFalse.push(numsUser);
                 }
                 numsRandomPc.innerHTML = "Numeri random Pc: " + arrayNumsPc;
                 numsRandomUser.innerHTML = "Numeri Utente: " + arrayNumsUser;
-                result.innerHTML = "Te ne ricordavi solamente: " + arrayNumsUserTrue.length + ", e sono: " + arrayNumsUserTrue; 
+                result.innerHTML = "Te ne ricordavi solamente: " + arrayNumsUserTrue.length + ", e sono: " + arrayNumsUserTrue;
             }
         }
     }, 1000);
