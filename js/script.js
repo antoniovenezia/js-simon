@@ -48,8 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var arrayNumsUserFalse = [];
 
     var timer = setInterval(function () {
-        numsRandomPc.innerHTML = numSecondi;
-        numSecondi--;
+        numsRandomPc.innerHTML = numSeconds;
+        numSeconds--;
         if (numSeconds < 0) {
 
             clearInterval(timer);
