@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //Ora devo fare in modo da crearmi un Timer. Dunque mi fisso una variabile
     // con il numero di secondi scelti e proseguo con un "setInterval":
 
-    var numSecondi = 3;
+    var numSeconds = 30;
 
     var arrayNumsUser = [];
     var arrayNumsUserTrue = [];
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var timer = setInterval(function () {
         numsRandomPc.innerHTML = numSecondi;
         numSecondi--;
-        if (numSecondi < 0) {
+        if (numSeconds < 0) {
 
             clearInterval(timer);
 
